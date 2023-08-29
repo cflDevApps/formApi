@@ -10,7 +10,7 @@ import org.springframework.web.servlet.function.EntityResponse;
 @RestController
 public class InitController {
 
-    @GetMapping("/init")
+    @GetMapping("/start")
     public ResponseEntity init(){
         return new ResponseEntity("{\"message\": \"Controller is working fine\"}", HttpStatus.OK);
     }
